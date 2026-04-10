@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "service": "cache-redis-config",
+  "version": "1.2.3",
+  "uptime_seconds": 3600,
+  "redis": {
+    "connected": true,
+    "latency_ms": 0.5,
+    "memory_usage_mb": 128,
+    "replication_role": "master",
+    "clients_connected": 10
+  },
+  "config_source": {
+    "type": "file",
+    "location": "/etc/cache-redis-config/redis.conf",
+    "last_updated": "2024-10-27T10:29:00Z"
+  },
+  "dependencies": [
+    {
+      "name": "redis-server",
+      "status": "ok",
+      "version": "6.2.6"
+    }
+  ],
+  "metrics": {
+    "requests_per_second": 150,
+    "error_rate": 0.01
+  }
+}
